@@ -1,0 +1,14 @@
+title save on SPA
+
+browser -> server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa_spa
+
+note over server
+server gets JSON data 
+from POST request
+end note 
+
+server -> browser: status code 201
+
+note over browser
+new note rendered
+end note
